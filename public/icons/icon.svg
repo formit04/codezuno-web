@@ -1,0 +1,20 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="230" fill="url(#bgGradient)"/>
+
+  <!-- Left bracket -->
+  <path d="M179.2 153.6L128 256L179.2 358.4" stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right bracket -->
+  <path d="M332.8 153.6L384 256L332.8 358.4" stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Z letter -->
+  <path d="M204.8 192H307.2L204.8 320H307.2" stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

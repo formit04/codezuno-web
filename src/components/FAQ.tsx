@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import FAQStructuredData from "./FAQStructuredData";
 
 const faqKeys = ["technologies", "timeline", "support", "process", "team", "pricing"];
 
@@ -13,6 +14,7 @@ export default function FAQ() {
 
   return (
     <section className="section-padding relative bg-white">
+      <FAQStructuredData />
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
