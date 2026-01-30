@@ -1,0 +1,421 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "ai": "Soluciones IA",
+    "about": "Nosotros",
+    "portfolio": "Portfolio",
+    "pricing": "Precios",
+    "testimonials": "Testimonios",
+    "process": "Proceso",
+    "contact": "Contacto",
+    "getStarted": "Empezar"
+  },
+  "hero": {
+    "badge": "Construyendo el futuro del software",
+    "title1": "Creamos",
+    "titleHighlight": "Excepcionales",
+    "title2": "Experiencias Digitales",
+    "description": "Transforma tus ideas en soluciones de software potentes y escalables. Desde aplicaciones web hasta móviles, creamos productos digitales que generan resultados.",
+    "cta": "Iniciar Proyecto",
+    "viewWork": "Ver Nuestro Trabajo",
+    "features": {
+      "custom": "Desarrollo de Software Personalizado",
+      "modern": "Stack Tecnológico Moderno",
+      "agile": "Metodología Ágil",
+      "support": "Soporte 24/7"
+    },
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "clients": "Clientes Satisfechos",
+      "years": "Años de Experiencia",
+      "satisfaction": "Satisfacción del Cliente"
+    }
+  },
+  "ai": {
+    "badge": "Soluciones con IA",
+    "title": "Integración de IA",
+    "titleHighlight": "para Empresas",
+    "description": "Aprovecha el poder de la inteligencia artificial para automatizar procesos, mejorar experiencias de clientes y obtener ventaja competitiva.",
+    "benefits": {
+      "efficiency": "Mayor Eficiencia",
+      "costs": "Reducción de Costos",
+      "availability": "Disponibilidad",
+      "accuracy": "Precisión de IA"
+    },
+    "services": {
+      "chatbots": {
+        "title": "Chatbots y Asistentes IA",
+        "description": "Chatbots personalizados con GPT-4, Claude o modelos propios. Atención al cliente 24/7, generación de leads y bases de conocimiento internas."
+      },
+      "documents": {
+        "title": "Procesamiento de Documentos",
+        "description": "Análisis automático de documentos, extracción de datos y búsqueda inteligente en la base de conocimiento usando tecnología RAG."
+      },
+      "automation": {
+        "title": "Automatización de Procesos",
+        "description": "Automatización de flujos de trabajo con IA. Desde procesamiento de emails hasta lógica empresarial compleja."
+      },
+      "analytics": {
+        "title": "Analítica Predictiva",
+        "description": "Modelos de machine learning para pronóstico de ventas, predicción de demanda, análisis de churn e inteligencia empresarial."
+      },
+      "custom": {
+        "title": "Modelos IA Personalizados",
+        "description": "Modelos ajustados y entrenados con tus datos. Soluciones especializadas para tu industria y necesidades específicas."
+      },
+      "assistants": {
+        "title": "AI Copilots",
+        "description": "Asistentes inteligentes integrados en tus flujos de trabajo. Asistentes de código, ayudantes de escritura y sistemas de apoyo a decisiones."
+      }
+    },
+    "useCases": {
+      "title": "Casos de Uso Populares",
+      "items": [
+        "Automatización de Soporte",
+        "Calificación de Leads",
+        "Resumen de Documentos",
+        "Clasificación de Emails",
+        "Generación de Contenido",
+        "Análisis de Datos",
+        "Pronóstico de Inventario",
+        "Detección de Fraudes",
+        "Recomendaciones Personalizadas",
+        "Control de Calidad"
+      ]
+    },
+    "cta": {
+      "primary": "Iniciar Integración IA",
+      "secondary": "Ver Precios"
+    }
+  },
+  "services": {
+    "subtitle": "Lo Que Hacemos",
+    "title": "Nuestros",
+    "titleHighlight": "Servicios",
+    "description": "Servicios integrales de desarrollo de software adaptados a las necesidades de tu negocio. Damos vida a tu visión con tecnología de vanguardia.",
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "Aplicaciones web personalizadas construidas con frameworks modernos. Desde landing pages hasta soluciones empresariales complejas."
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "description": "Aplicaciones móviles nativas y multiplataforma que ofrecen experiencias de usuario excepcionales en iOS y Android."
+    },
+    "desktop": {
+      "title": "Aplicaciones de Escritorio",
+      "description": "Software de escritorio potente para Windows, macOS y Linux. Optimizado para tu rendimiento."
+    },
+    "api": {
+      "title": "Desarrollo de API",
+      "description": "Sistemas backend escalables y APIs que impulsan tus aplicaciones. Seguros, rápidos y confiables."
+    },
+    "cloud": {
+      "title": "Soluciones Cloud",
+      "description": "Diseño e implementación de infraestructura en la nube. Experiencia en AWS, GCP y Azure para un rendimiento óptimo."
+    },
+    "security": {
+      "title": "Seguridad y DevOps",
+      "description": "Asegura tus aplicaciones y optimiza los despliegues con pipelines CI/CD y mejores prácticas de seguridad."
+    }
+  },
+  "about": {
+    "subtitle": "Sobre Nosotros",
+    "title": "Conoce",
+    "titleHighlight": "Codezuno",
+    "description1": "Somos un equipo de desarrolladores, diseñadores y estrategas apasionados, dedicados a transformar ideas en productos digitales excepcionales. Con años de experiencia en diversas industrias, entendemos lo que se necesita para construir software que escala.",
+    "description2": "Nuestro enfoque combina excelencia técnica con resolución creativa de problemas. No solo escribimos código, creamos soluciones que resuelven desafíos empresariales reales y entregan resultados medibles.",
+    "stats": {
+      "years": "Años de Excelencia",
+      "projects": "Proyectos Exitosos",
+      "delivery": "Entrega a Tiempo"
+    },
+    "values": {
+      "mission": {
+        "title": "Orientados a la Misión",
+        "description": "Estamos comprometidos a entregar soluciones que tengan un impacto real en tu negocio."
+      },
+      "client": {
+        "title": "Enfocados en el Cliente",
+        "description": "Tu éxito es nuestro éxito. Construimos asociaciones duraderas, no solo proyectos."
+      },
+      "innovation": {
+        "title": "Innovación Primero",
+        "description": "Nos adelantamos a las tendencias tecnológicas para ofrecerte soluciones de vanguardia."
+      },
+      "quality": {
+        "title": "Calidad Garantizada",
+        "description": "Cada línea de código está elaborada con precisión y probada para garantizar confiabilidad."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Nuestro Trabajo",
+    "title": "Proyectos",
+    "titleHighlight": "Destacados",
+    "description": "Explora algunos de nuestros proyectos recientes. Cada uno representa nuestro compromiso con la excelencia y nuestra pasión por crear soluciones impactantes.",
+    "liveDemo": "Demo",
+    "sourceCode": "Código Fuente",
+    "projects": {
+      "ecommerce": {
+        "title": "Plataforma E-Commerce",
+        "description": "Solución e-commerce completa con inventario en tiempo real, procesamiento de pagos y panel de administración.",
+        "category": "App Web"
+      },
+      "healthcare": {
+        "title": "App de Salud",
+        "description": "Aplicación móvil compatible con HIPAA para gestión de pacientes y consultas de telemedicina.",
+        "category": "App Móvil"
+      },
+      "saas": {
+        "title": "Dashboard SaaS",
+        "description": "Panel de análisis con visualización de datos en tiempo real y herramientas de informes personalizables.",
+        "category": "App Web"
+      },
+      "fintech": {
+        "title": "Solución Fintech",
+        "description": "Plataforma financiera segura con trading automatizado, gestión de portafolio y herramientas de cumplimiento.",
+        "category": "Enterprise"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Testimonios",
+    "title": "Lo Que Dicen",
+    "titleHighlight": "Nuestros Clientes",
+    "description": "No solo confíes en nuestra palabra. Esto es lo que nuestros clientes tienen que decir sobre trabajar con nosotros."
+  },
+  "techStack": {
+    "subtitle": "Tecnologías",
+    "title": "Nuestro",
+    "titleHighlight": "Stack Tecnológico",
+    "description": "Trabajamos con las últimas tecnologías para construir soluciones robustas, escalables y preparadas para el futuro."
+  },
+  "process": {
+    "subtitle": "Cómo Trabajamos",
+    "title": "Nuestro",
+    "titleHighlight": "Proceso",
+    "description": "Una metodología probada que garantiza la entrega exitosa del proyecto desde el concepto hasta el lanzamiento y más allá.",
+    "steps": {
+      "discovery": {
+        "title": "Descubrimiento",
+        "description": "Comenzamos entendiendo tu visión, objetivos y requisitos a través de discusiones profundas.",
+        "details": ["Recopilación de requisitos", "Entrevistas con stakeholders", "Investigación de mercado"]
+      },
+      "planning": {
+        "title": "Planificación",
+        "description": "Nuestro equipo crea una hoja de ruta detallada, diseño de arquitectura y cronograma del proyecto.",
+        "details": ["Arquitectura técnica", "Diseño UI/UX", "Planificación de sprints"]
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Construimos tu solución usando metodología ágil con actualizaciones regulares y ciclos de retroalimentación.",
+        "details": ["Sprints ágiles", "Revisiones de código", "Integración continua"]
+      },
+      "launch": {
+        "title": "Lanzamiento y Soporte",
+        "description": "Desplegamos tu proyecto y proporcionamos mantenimiento y soporte continuo.",
+        "details": ["Aseguramiento de calidad", "Despliegue", "Monitoreo 24/7"]
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "description": "Encuentra respuestas a preguntas comunes sobre nuestros servicios y proceso. ¿No encuentras lo que buscas? Contáctanos directamente.",
+    "questions": {
+      "technologies": {
+        "question": "¿En qué tecnologías se especializan?",
+        "answer": "Nos especializamos en tecnologías web modernas incluyendo React, Next.js, Vue.js, Node.js, Python y Go. Para desarrollo móvil, trabajamos con React Native y Flutter. También tenemos experiencia en plataformas cloud como AWS, GCP y Azure."
+      },
+      "timeline": {
+        "question": "¿Cuánto tiempo toma un proyecto típico?",
+        "answer": "Los tiempos varían según el alcance y complejidad. Un sitio web simple puede tomar 2-4 semanas, mientras que una aplicación web compleja podría tomar 3-6 meses. Proporcionamos cronogramas detallados durante la fase de planificación."
+      },
+      "support": {
+        "question": "¿Proporcionan soporte después del lanzamiento?",
+        "answer": "Sí, ofrecemos paquetes completos de soporte y mantenimiento post-lanzamiento. Esto incluye corrección de errores, actualizaciones de seguridad, monitoreo de rendimiento y mejoras de funcionalidad."
+      },
+      "process": {
+        "question": "¿Cuál es su proceso de desarrollo?",
+        "answer": "Seguimos metodología ágil con ciclos de desarrollo iterativos. Esto incluye descubrimiento, planificación, sprints de desarrollo, pruebas y despliegue. Tendrás reuniones regulares y demos durante el proyecto."
+      },
+      "team": {
+        "question": "¿Pueden trabajar con nuestro equipo existente?",
+        "answer": "¡Absolutamente! Frecuentemente nos integramos con equipos internos como extensión de sus capacidades. Podemos adaptarnos a sus flujos de trabajo, herramientas y preferencias de comunicación."
+      },
+      "pricing": {
+        "question": "¿Cómo manejan los precios de los proyectos?",
+        "answer": "Ofrecemos modelos de precio fijo y tiempo-materiales. El precio fijo funciona bien para proyectos con alcance claramente definido, mientras que T&M ofrece flexibilidad para requisitos evolutivos."
+      }
+    }
+  },
+  "aiPricing": {
+    "badge": "Precios de Servicios IA",
+    "title": "Precios de Integración",
+    "titleHighlight": "IA",
+    "description": "Precios transparentes para soluciones de IA. Elige el paquete que se ajuste a tus necesidades de automatización.",
+    "from": "Desde",
+    "popular": "Más Popular",
+    "cta": "Empezar",
+    "note": "* Los precios dependen de la complejidad y alcance. Ofrecemos cotizaciones personalizadas para requisitos específicos.",
+    "customProject": "¿Necesitas una solución de IA personalizada? Hablemos",
+    "plans": {
+      "chatbot": {
+        "name": "Chatbot IA",
+        "description": "Chatbot inteligente para tu sitio web o app",
+        "features": [
+          "Impulsado por GPT-4 o Claude",
+          "Base de conocimiento personalizada",
+          "Integración web/app",
+          "Soporte multiidioma",
+          "Panel de análisis",
+          "Entrega en 2-4 semanas",
+          "30 días de soporte"
+        ]
+      },
+      "automation": {
+        "name": "Automatización IA",
+        "description": "Automatización de procesos con IA",
+        "features": [
+          "Procesamiento de documentos (RAG)",
+          "Automatización de emails",
+          "Extracción y análisis de datos",
+          "Integración de flujos de trabajo",
+          "Endpoints API personalizados",
+          "Capacitación de empleados",
+          "Entrega en 4-8 semanas",
+          "90 días de soporte"
+        ]
+      },
+      "custom": {
+        "name": "IA Personalizada",
+        "description": "Solución de IA a medida para tu negocio",
+        "features": [
+          "Entrenamiento de modelos propios",
+          "Fine-tuning con tus datos",
+          "Múltiples integraciones de IA",
+          "Analítica avanzada",
+          "Infraestructura dedicada",
+          "Documentación completa",
+          "Entrega en 8-12 semanas",
+          "6 meses de soporte"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "subtitle": "Precios",
+    "title": "Precios",
+    "titleHighlight": "Transparentes",
+    "description": "Elige el paquete que se ajuste a tus necesidades. Todos los precios son puntos de partida - el costo final depende de la complejidad del proyecto.",
+    "from": "Desde",
+    "project": "proyecto",
+    "popular": "Más Popular",
+    "cta": "Empezar",
+    "note": "* Todos los precios son estimaciones. El precio final se determina después de la fase de descubrimiento según tus requisitos específicos.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfecto para proyectos pequeños y MVPs",
+        "features": [
+          "Landing page o sitio web simple",
+          "Hasta 5 páginas",
+          "Diseño responsive",
+          "Optimización SEO básica",
+          "Integración de formulario de contacto",
+          "Entrega en 2 semanas",
+          "30 días de soporte"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Ideal para negocios en crecimiento",
+        "features": [
+          "Aplicación web personalizada",
+          "Hasta 15 páginas/pantallas",
+          "Integración con base de datos",
+          "Autenticación de usuarios",
+          "Panel de administración",
+          "Desarrollo de API",
+          "Entrega en 4-8 semanas",
+          "90 días de soporte"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Para proyectos complejos a gran escala",
+        "features": [
+          "Aplicación full-stack",
+          "Páginas/pantallas ilimitadas",
+          "Integraciones avanzadas",
+          "Arquitectura de microservicios",
+          "Despliegue en la nube (AWS/GCP)",
+          "Optimización de rendimiento",
+          "Entrega en 8-16 semanas",
+          "6 meses de soporte"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "badge": "Construyamos algo increíble",
+    "title": "¿Listo para Transformar tus Ideas?",
+    "description": "Asóciate con nosotros para dar vida a tu visión. Estamos listos para ayudarte a construir la próxima generación de productos digitales.",
+    "startProject": "Iniciar Proyecto",
+    "viewWork": "Ver Nuestro Trabajo"
+  },
+  "contact": {
+    "subtitle": "Contacto",
+    "title": "Ponte en",
+    "titleHighlight": "Contacto",
+    "description": "¿Listo para iniciar tu proyecto? Nos encantaría saber de ti. Envíanos un mensaje y responderemos lo antes posible.",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Tu Nombre",
+      "namePlaceholder": "Juan García",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Consulta de Proyecto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando..."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Email"
+    },
+    "process": {
+      "review": "Revisamos cuidadosamente cada mensaje y te respondemos con una respuesta reflexiva.",
+      "fast": "Respondemos lo más rápido posible - generalmente dentro de 24 horas en días laborables.",
+      "free": "No dudes en contactarnos - la consulta inicial es completamente gratuita y sin compromiso.",
+      "video": "Estaremos encantados de programar una videollamada para discutir tu proyecto en detalle."
+    }
+  },
+  "footer": {
+    "description": "Construyendo experiencias digitales excepcionales con tecnología de vanguardia. Convirtamos tu visión en realidad.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "legal": "Legal",
+    "rights": "Todos los derechos reservados.",
+    "craftedWith": "Hecho con",
+    "in": "en Varsovia, Polonia",
+    "links": {
+      "webDev": "Desarrollo Web",
+      "mobileDev": "Desarrollo Móvil",
+      "desktopApps": "Aplicaciones de Escritorio",
+      "apiDev": "Desarrollo de API",
+      "cloudSolutions": "Soluciones Cloud",
+      "aboutUs": "Sobre Nosotros",
+      "portfolio": "Portfolio",
+      "testimonials": "Testimonios",
+      "process": "Proceso",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies"
+    }
+  }
+}

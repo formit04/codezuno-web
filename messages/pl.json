@@ -1,0 +1,421 @@
+{
+  "nav": {
+    "services": "Usługi",
+    "ai": "Rozwiązania AI",
+    "about": "O nas",
+    "portfolio": "Portfolio",
+    "pricing": "Cennik",
+    "testimonials": "Opinie",
+    "process": "Proces",
+    "contact": "Kontakt",
+    "getStarted": "Rozpocznij"
+  },
+  "hero": {
+    "badge": "Budujemy przyszłość oprogramowania",
+    "title1": "Tworzymy",
+    "titleHighlight": "Wyjątkowe",
+    "title2": "Cyfrowe Doświadczenia",
+    "description": "Przekształć swoje pomysły w potężne, skalowalne rozwiązania programistyczne. Od aplikacji webowych po mobilne - tworzymy produkty cyfrowe, które przynoszą rezultaty.",
+    "cta": "Rozpocznij Projekt",
+    "viewWork": "Zobacz Nasze Prace",
+    "features": {
+      "custom": "Dedykowane Oprogramowanie",
+      "modern": "Nowoczesny Stack Technologiczny",
+      "agile": "Metodologia Agile",
+      "support": "Wsparcie 24/7"
+    },
+    "stats": {
+      "projects": "Zrealizowanych Projektów",
+      "clients": "Zadowolonych Klientów",
+      "years": "Lat Doświadczenia",
+      "satisfaction": "Satysfakcji Klientów"
+    }
+  },
+  "ai": {
+    "badge": "Rozwiązania AI",
+    "title": "Integracja AI",
+    "titleHighlight": "dla Biznesu",
+    "description": "Wykorzystaj moc sztucznej inteligencji do automatyzacji procesów, poprawy doświadczeń klientów i zdobycia przewagi konkurencyjnej.",
+    "benefits": {
+      "efficiency": "Wzrost Wydajności",
+      "costs": "Redukcja Kosztów",
+      "availability": "Dostępność",
+      "accuracy": "Dokładność AI"
+    },
+    "services": {
+      "chatbots": {
+        "title": "Chatboty i Asystenci AI",
+        "description": "Niestandardowe chatboty oparte na GPT-4, Claude lub własnych modelach. Obsługa klienta 24/7, generowanie leadów i wewnętrzne bazy wiedzy."
+      },
+      "documents": {
+        "title": "Przetwarzanie Dokumentów",
+        "description": "Automatyczna analiza dokumentów, ekstrakcja danych i inteligentne wyszukiwanie w bazie wiedzy firmy z wykorzystaniem technologii RAG."
+      },
+      "automation": {
+        "title": "Automatyzacja Procesów",
+        "description": "Automatyzacja workflow napędzana przez AI. Od przetwarzania emaili po złożoną logikę biznesową - pozwól AI obsługiwać powtarzalne zadania."
+      },
+      "analytics": {
+        "title": "Analityka Predykcyjna",
+        "description": "Modele machine learning do prognozowania sprzedaży, przewidywania popytu, analizy churnu klientów i business intelligence."
+      },
+      "custom": {
+        "title": "Własne Modele AI",
+        "description": "Modele dostrojone i trenowane na Twoich danych. Specjalistyczne rozwiązania dla Twojej branży i konkretnych potrzeb biznesowych."
+      },
+      "assistants": {
+        "title": "AI Copilots",
+        "description": "Inteligentni asystenci zintegrowani z Twoimi przepływami pracy. Asystenci kodu, pomocnicy pisania i systemy wspomagania decyzji."
+      }
+    },
+    "useCases": {
+      "title": "Popularne Zastosowania",
+      "items": [
+        "Automatyzacja Obsługi Klienta",
+        "Kwalifikacja Leadów Sprzedażowych",
+        "Podsumowywanie Dokumentów",
+        "Klasyfikacja Emaili",
+        "Generowanie Treści",
+        "Analiza Danych",
+        "Prognozowanie Zapasów",
+        "Wykrywanie Oszustw",
+        "Spersonalizowane Rekomendacje",
+        "Kontrola Jakości"
+      ]
+    },
+    "cta": {
+      "primary": "Rozpocznij Integrację AI",
+      "secondary": "Zobacz Cennik"
+    }
+  },
+  "services": {
+    "subtitle": "Co Robimy",
+    "title": "Nasze",
+    "titleHighlight": "Usługi",
+    "description": "Kompleksowe usługi tworzenia oprogramowania dostosowane do potrzeb Twojego biznesu. Realizujemy Twoją wizję z wykorzystaniem najnowszych technologii.",
+    "web": {
+      "title": "Aplikacje Webowe",
+      "description": "Niestandardowe aplikacje webowe budowane z wykorzystaniem nowoczesnych frameworków. Od stron landingowych po złożone rozwiązania enterprise."
+    },
+    "mobile": {
+      "title": "Aplikacje Mobilne",
+      "description": "Natywne i cross-platformowe aplikacje mobilne zapewniające wyjątkowe doświadczenia użytkownika na iOS i Android."
+    },
+    "desktop": {
+      "title": "Aplikacje Desktopowe",
+      "description": "Wydajne oprogramowanie desktopowe dla Windows, macOS i Linux. Zoptymalizowane pod kątem Twoich potrzeb."
+    },
+    "api": {
+      "title": "Rozwój API",
+      "description": "Skalowalne systemy backendowe i API zasilające Twoje aplikacje. Bezpieczne, szybkie i niezawodne."
+    },
+    "cloud": {
+      "title": "Rozwiązania Chmurowe",
+      "description": "Projektowanie i wdrażanie infrastruktury chmurowej. Ekspertyza AWS, GCP i Azure dla optymalnej wydajności."
+    },
+    "security": {
+      "title": "Bezpieczeństwo i DevOps",
+      "description": "Zabezpiecz swoje aplikacje i usprawnij wdrożenia dzięki CI/CD i najlepszym praktykom bezpieczeństwa."
+    }
+  },
+  "about": {
+    "subtitle": "O Nas",
+    "title": "Poznaj",
+    "titleHighlight": "Codezuno",
+    "description1": "Jesteśmy zespołem pasjonatów - programistów, projektantów i strategów - oddanych przekształcaniu pomysłów w wyjątkowe produkty cyfrowe. Z wieloletnim doświadczeniem w różnych branżach rozumiemy, czego potrzeba, aby tworzyć oprogramowanie, które się skaluje.",
+    "description2": "Nasze podejście łączy doskonałość techniczną z kreatywnym rozwiązywaniem problemów. Nie tylko piszemy kod - tworzymy rozwiązania, które rozwiązują realne wyzwania biznesowe i dostarczają mierzalne rezultaty.",
+    "stats": {
+      "years": "Lat Doskonałości",
+      "projects": "Udanych Projektów",
+      "delivery": "Terminowość Dostaw"
+    },
+    "values": {
+      "mission": {
+        "title": "Zorientowani na Misję",
+        "description": "Jesteśmy zaangażowani w dostarczanie rozwiązań, które mają realny wpływ na Twój biznes."
+      },
+      "client": {
+        "title": "Skupieni na Kliencie",
+        "description": "Twój sukces jest naszym sukcesem. Budujemy trwałe partnerstwa, nie tylko projekty."
+      },
+      "innovation": {
+        "title": "Innowacje na Pierwszym Miejscu",
+        "description": "Wyprzedzamy trendy technologiczne, aby dostarczać Ci najnowocześniejsze rozwiązania."
+      },
+      "quality": {
+        "title": "Gwarancja Jakości",
+        "description": "Każda linia kodu jest tworzona z precyzją i testowana pod kątem niezawodności."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Nasze Prace",
+    "title": "Wybrane",
+    "titleHighlight": "Projekty",
+    "description": "Poznaj nasze ostatnie projekty. Każdy z nich reprezentuje nasze zaangażowanie w doskonałość i pasję do tworzenia skutecznych rozwiązań.",
+    "liveDemo": "Demo",
+    "sourceCode": "Kod Źródłowy",
+    "projects": {
+      "ecommerce": {
+        "title": "Platforma E-Commerce",
+        "description": "Kompleksowe rozwiązanie e-commerce z zarządzaniem magazynem w czasie rzeczywistym, obsługą płatności i panelem administracyjnym.",
+        "category": "Aplikacja Web"
+      },
+      "healthcare": {
+        "title": "Aplikacja Medyczna",
+        "description": "Zgodna z HIPAA aplikacja mobilna do zarządzania pacjentami i konsultacji telemedycznych.",
+        "category": "Aplikacja Mobilna"
+      },
+      "saas": {
+        "title": "Dashboard SaaS",
+        "description": "Panel analityczny z wizualizacją danych w czasie rzeczywistym i konfigurowalnymi narzędziami raportowania.",
+        "category": "Aplikacja Web"
+      },
+      "fintech": {
+        "title": "Rozwiązanie Fintech",
+        "description": "Bezpieczna platforma finansowa z automatycznym tradingiem, zarządzaniem portfelem i narzędziami compliance.",
+        "category": "Enterprise"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Opinie",
+    "title": "Co Mówią",
+    "titleHighlight": "Nasi Klienci",
+    "description": "Nie wierz nam na słowo. Oto, co nasi klienci mają do powiedzenia o współpracy z nami."
+  },
+  "techStack": {
+    "subtitle": "Technologie",
+    "title": "Nasz",
+    "titleHighlight": "Stack Technologiczny",
+    "description": "Pracujemy z najnowszymi technologiami, aby budować solidne, skalowalne i przyszłościowe rozwiązania dla Twojego biznesu."
+  },
+  "process": {
+    "subtitle": "Jak Pracujemy",
+    "title": "Nasz",
+    "titleHighlight": "Proces",
+    "description": "Sprawdzona metodologia zapewniająca sukces projektu od koncepcji po wdrożenie i dalej.",
+    "steps": {
+      "discovery": {
+        "title": "Odkrywanie",
+        "description": "Zaczynamy od zrozumienia Twojej wizji, celów i wymagań poprzez dogłębne dyskusje.",
+        "details": ["Zbieranie wymagań", "Wywiady z interesariuszami", "Badanie rynku"]
+      },
+      "planning": {
+        "title": "Planowanie",
+        "description": "Nasz zespół tworzy szczegółową mapę drogową, projekt architektury i harmonogram projektu.",
+        "details": ["Architektura techniczna", "Projektowanie UI/UX", "Planowanie sprintów"]
+      },
+      "development": {
+        "title": "Rozwój",
+        "description": "Budujemy Twoje rozwiązanie wykorzystując metodologię agile z regularnymi aktualizacjami i pętlami zwrotnymi.",
+        "details": ["Sprinty agile", "Przeglądy kodu", "Ciągła integracja"]
+      },
+      "launch": {
+        "title": "Wdrożenie i Wsparcie",
+        "description": "Wdrażamy Twój projekt i zapewniamy bieżące utrzymanie i wsparcie.",
+        "details": ["Zapewnienie jakości", "Wdrożenie", "Monitoring 24/7"]
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Często Zadawane",
+    "titleHighlight": "Pytania",
+    "description": "Znajdź odpowiedzi na najczęstsze pytania dotyczące naszych usług i procesu. Nie znalazłeś tego, czego szukasz? Skontaktuj się z nami bezpośrednio.",
+    "questions": {
+      "technologies": {
+        "question": "W jakich technologiach się specjalizujecie?",
+        "answer": "Specjalizujemy się w nowoczesnych technologiach webowych, w tym React, Next.js, Vue.js, Node.js, Python i Go. W rozwoju mobilnym pracujemy z React Native i Flutter. Posiadamy również ekspertyzę w platformach chmurowych jak AWS, GCP i Azure."
+      },
+      "timeline": {
+        "question": "Jak długo trwa typowy projekt?",
+        "answer": "Czas realizacji projektu zależy od zakresu i złożoności. Prosta strona może zająć 2-4 tygodnie, podczas gdy złożona aplikacja webowa może wymagać 3-6 miesięcy. Szczegółowe harmonogramy przedstawiamy podczas fazy planowania po zrozumieniu Twoich wymagań."
+      },
+      "support": {
+        "question": "Czy zapewniacie wsparcie po wdrożeniu?",
+        "answer": "Tak, oferujemy kompleksowe pakiety wsparcia i utrzymania po wdrożeniu. Obejmują one naprawę błędów, aktualizacje bezpieczeństwa, monitoring wydajności i rozbudowę funkcjonalności. Możemy dostosować plan wsparcia do Twoich potrzeb."
+      },
+      "process": {
+        "question": "Jaki jest Wasz proces rozwoju?",
+        "answer": "Stosujemy metodologię agile z iteracyjnymi cyklami rozwoju. Obejmuje to odkrywanie, planowanie, sprinty rozwojowe, testowanie i wdrożenie. Będziesz mieć regularne spotkania i prezentacje w trakcie projektu, aby upewnić się, że jesteśmy zgodni z Twoją wizją."
+      },
+      "team": {
+        "question": "Czy możecie współpracować z naszym zespołem?",
+        "answer": "Oczywiście! Często integrujemy się z wewnętrznymi zespołami jako rozszerzenie ich możliwości. Możemy dostosować się do Waszych przepływów pracy, narzędzi i preferencji komunikacyjnych, aby zapewnić bezproblemową współpracę."
+      },
+      "pricing": {
+        "question": "Jak wyceniacie projekty?",
+        "answer": "Oferujemy zarówno model stałej ceny, jak i rozliczenie czasowo-materiałowe. Stała cena sprawdza się przy projektach z jasno zdefiniowanym zakresem, podczas gdy T&M oferuje elastyczność przy ewoluujących wymaganiach. Szczegółowe wyceny przedstawiamy po fazie odkrywania."
+      }
+    }
+  },
+  "aiPricing": {
+    "badge": "Cennik Usług AI",
+    "title": "Cennik Integracji",
+    "titleHighlight": "AI",
+    "description": "Przejrzysty cennik rozwiązań AI. Wybierz pakiet dopasowany do Twoich potrzeb automatyzacji.",
+    "from": "Od",
+    "popular": "Najpopularniejszy",
+    "cta": "Rozpocznij",
+    "note": "* Ceny zależą od złożoności i zakresu. Oferujemy indywidualne wyceny dla konkretnych wymagań.",
+    "customProject": "Potrzebujesz niestandardowego rozwiązania AI? Porozmawiajmy",
+    "plans": {
+      "chatbot": {
+        "name": "Chatbot AI",
+        "description": "Inteligentny chatbot dla Twojej strony lub aplikacji",
+        "features": [
+          "Napędzany przez GPT-4 lub Claude",
+          "Własna baza wiedzy",
+          "Integracja ze stroną/aplikacją",
+          "Wsparcie wielojęzyczne",
+          "Panel analityczny",
+          "Realizacja w 2-4 tygodnie",
+          "30 dni wsparcia"
+        ]
+      },
+      "automation": {
+        "name": "Automatyzacja AI",
+        "description": "Automatyzacja procesów z wykorzystaniem AI",
+        "features": [
+          "Przetwarzanie dokumentów (RAG)",
+          "Automatyzacja emaili",
+          "Ekstrakcja i analiza danych",
+          "Integracja z workflow",
+          "Własne endpointy API",
+          "Szkolenie pracowników",
+          "Realizacja w 4-8 tygodni",
+          "90 dni wsparcia"
+        ]
+      },
+      "custom": {
+        "name": "Custom AI",
+        "description": "Rozwiązanie AI szyte na miarę Twojego biznesu",
+        "features": [
+          "Trenowanie własnych modeli",
+          "Fine-tuning na Twoich danych",
+          "Wiele integracji AI",
+          "Zaawansowana analityka",
+          "Dedykowana infrastruktura",
+          "Pełna dokumentacja",
+          "Realizacja w 8-12 tygodni",
+          "6 miesięcy wsparcia"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "subtitle": "Cennik",
+    "title": "Przejrzysty",
+    "titleHighlight": "Cennik",
+    "description": "Wybierz pakiet dopasowany do Twoich potrzeb. Wszystkie ceny to punkty wyjścia - ostateczny koszt zależy od złożoności projektu.",
+    "from": "Od",
+    "project": "projekt",
+    "popular": "Najpopularniejszy",
+    "cta": "Rozpocznij",
+    "note": "* Wszystkie ceny są szacunkowe. Ostateczna wycena jest ustalana po fazie odkrywania na podstawie Twoich konkretnych wymagań.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Idealny dla małych projektów i MVP",
+        "features": [
+          "Strona landing page lub prosta witryna",
+          "Do 5 podstron",
+          "Responsywny design",
+          "Podstawowa optymalizacja SEO",
+          "Integracja formularza kontaktowego",
+          "Realizacja w 2 tygodnie",
+          "30 dni wsparcia"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Idealny dla rozwijających się firm",
+        "features": [
+          "Niestandardowa aplikacja webowa",
+          "Do 15 stron/ekranów",
+          "Integracja z bazą danych",
+          "Uwierzytelnianie użytkowników",
+          "Panel administracyjny",
+          "Rozwój API",
+          "Realizacja w 4-8 tygodni",
+          "90 dni wsparcia"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Dla złożonych projektów na dużą skalę",
+        "features": [
+          "Aplikacja full-stack",
+          "Nieograniczona liczba stron/ekranów",
+          "Zaawansowane integracje",
+          "Architektura mikroserwisów",
+          "Wdrożenie w chmurze (AWS/GCP)",
+          "Optymalizacja wydajności",
+          "Realizacja w 8-16 tygodni",
+          "6 miesięcy wsparcia"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "badge": "Zbudujmy coś niesamowitego",
+    "title": "Gotowy Przekształcić Swoje Pomysły?",
+    "description": "Współpracuj z nami, aby ożywić swoją wizję. Jesteśmy gotowi pomóc Ci zbudować produkty cyfrowe nowej generacji.",
+    "startProject": "Rozpocznij Projekt",
+    "viewWork": "Zobacz Nasze Prace"
+  },
+  "contact": {
+    "subtitle": "Kontakt",
+    "title": "Skontaktuj",
+    "titleHighlight": "Się",
+    "description": "Gotowy rozpocząć projekt? Chętnie Cię poznamy. Wyślij nam wiadomość, a odpowiemy jak najszybciej.",
+    "form": {
+      "title": "Wyślij nam wiadomość",
+      "name": "Twoje Imię",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Adres Email",
+      "emailPlaceholder": "jan@example.com",
+      "subject": "Temat",
+      "subjectPlaceholder": "Zapytanie o Projekt",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Opowiedz nam o swoim projekcie...",
+      "send": "Wyślij Wiadomość",
+      "sending": "Wysyłanie..."
+    },
+    "info": {
+      "title": "Dane Kontaktowe",
+      "email": "Email"
+    },
+    "process": {
+      "review": "Dokładnie analizujemy każdą wiadomość i odpowiadamy przemyślaną odpowiedzią.",
+      "fast": "Odpowiadamy tak szybko jak to możliwe - zwykle w ciągu 24 godzin w dni robocze.",
+      "free": "Nie wahaj się skontaktować - wstępna konsultacja jest całkowicie bezpłatna i niezobowiązująca.",
+      "video": "Chętnie umówimy się na rozmowę video online, aby szczegółowo omówić Twój projekt."
+    }
+  },
+  "footer": {
+    "description": "Budujemy wyjątkowe doświadczenia cyfrowe z wykorzystaniem najnowszych technologii. Zamieńmy Twoją wizję w rzeczywistość.",
+    "services": "Usługi",
+    "company": "Firma",
+    "legal": "Prawne",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "craftedWith": "Stworzone z",
+    "in": "w Warszawie, Polska",
+    "links": {
+      "webDev": "Aplikacje Webowe",
+      "mobileDev": "Aplikacje Mobilne",
+      "desktopApps": "Aplikacje Desktopowe",
+      "apiDev": "Rozwój API",
+      "cloudSolutions": "Rozwiązania Chmurowe",
+      "aboutUs": "O Nas",
+      "portfolio": "Portfolio",
+      "testimonials": "Opinie",
+      "process": "Proces",
+      "contact": "Kontakt",
+      "privacy": "Polityka Prywatności",
+      "terms": "Regulamin",
+      "cookies": "Polityka Cookies"
+    }
+  }
+}

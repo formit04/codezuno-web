@@ -1,0 +1,421 @@
+{
+  "nav": {
+    "services": "Services",
+    "ai": "AI Solutions",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "process": "Process",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Building the future of software",
+    "title1": "We Build",
+    "titleHighlight": "Exceptional",
+    "title2": "Digital Experiences",
+    "description": "Transform your ideas into powerful, scalable software solutions. From web applications to mobile apps, we craft digital products that drive results.",
+    "cta": "Start Your Project",
+    "viewWork": "View Our Work",
+    "features": {
+      "custom": "Custom Software Development",
+      "modern": "Modern Tech Stack",
+      "agile": "Agile Methodology",
+      "support": "24/7 Support"
+    },
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "satisfaction": "Client Satisfaction"
+    }
+  },
+  "ai": {
+    "badge": "AI-Powered Solutions",
+    "title": "AI Integration",
+    "titleHighlight": "for Business",
+    "description": "Harness the power of artificial intelligence to automate processes, enhance customer experiences, and gain competitive advantage.",
+    "benefits": {
+      "efficiency": "Increased Efficiency",
+      "costs": "Cost Reduction",
+      "availability": "Availability",
+      "accuracy": "AI Accuracy"
+    },
+    "services": {
+      "chatbots": {
+        "title": "AI Chatbots & Assistants",
+        "description": "Custom chatbots powered by GPT-4, Claude, or custom models. 24/7 customer support, lead generation, and internal knowledge bases."
+      },
+      "documents": {
+        "title": "Document Processing",
+        "description": "Automated document analysis, data extraction, and intelligent search across your company's knowledge base using RAG technology."
+      },
+      "automation": {
+        "title": "Process Automation",
+        "description": "AI-powered workflow automation. From email processing to complex business logic - let AI handle repetitive tasks."
+      },
+      "analytics": {
+        "title": "Predictive Analytics",
+        "description": "Machine learning models for sales forecasting, demand prediction, customer churn analysis, and business intelligence."
+      },
+      "custom": {
+        "title": "Custom AI Models",
+        "description": "Fine-tuned models trained on your data. Specialized solutions for your industry and specific business needs."
+      },
+      "assistants": {
+        "title": "AI Copilots",
+        "description": "Intelligent assistants integrated into your workflows. Code assistants, writing helpers, and decision support systems."
+      }
+    },
+    "useCases": {
+      "title": "Popular Use Cases",
+      "items": [
+        "Customer Support Automation",
+        "Sales Lead Qualification",
+        "Document Summarization",
+        "Email Classification",
+        "Content Generation",
+        "Data Analysis",
+        "Inventory Forecasting",
+        "Fraud Detection",
+        "Personalized Recommendations",
+        "Quality Control"
+      ]
+    },
+    "cta": {
+      "primary": "Start AI Integration",
+      "secondary": "View Pricing"
+    }
+  },
+  "services": {
+    "subtitle": "What We Do",
+    "title": "Our",
+    "titleHighlight": "Services",
+    "description": "End-to-end software development services tailored to your business needs. We bring your vision to life with cutting-edge technology.",
+    "web": {
+      "title": "Web Development",
+      "description": "Custom web applications built with modern frameworks. From landing pages to complex enterprise solutions."
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile apps that deliver exceptional user experiences on iOS and Android."
+    },
+    "desktop": {
+      "title": "Desktop Applications",
+      "description": "Powerful desktop software for Windows, macOS, and Linux. Performance-optimized for your needs."
+    },
+    "api": {
+      "title": "API Development",
+      "description": "Scalable backend systems and APIs that power your applications. Secure, fast, and reliable."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "description": "Cloud infrastructure design and deployment. AWS, GCP, and Azure expertise for optimal performance."
+    },
+    "security": {
+      "title": "Security & DevOps",
+      "description": "Secure your applications and streamline deployment with CI/CD pipelines and security best practices."
+    }
+  },
+  "about": {
+    "subtitle": "About Us",
+    "title": "Meet",
+    "titleHighlight": "Codezuno",
+    "description1": "We are a team of passionate developers, designers, and strategists dedicated to transforming ideas into exceptional digital products. With years of experience across diverse industries, we understand what it takes to build software that scales.",
+    "description2": "Our approach combines technical excellence with creative problem-solving. We don't just write code – we craft solutions that solve real business challenges and deliver measurable results.",
+    "stats": {
+      "years": "Years of Excellence",
+      "projects": "Successful Projects",
+      "delivery": "On-Time Delivery"
+    },
+    "values": {
+      "mission": {
+        "title": "Mission-Driven",
+        "description": "We're committed to delivering solutions that make a real impact on your business."
+      },
+      "client": {
+        "title": "Client-Focused",
+        "description": "Your success is our success. We build lasting partnerships, not just projects."
+      },
+      "innovation": {
+        "title": "Innovation First",
+        "description": "We stay ahead of technology trends to bring you cutting-edge solutions."
+      },
+      "quality": {
+        "title": "Quality Assured",
+        "description": "Every line of code is crafted with precision and tested for reliability."
+      }
+    }
+  },
+  "portfolio": {
+    "subtitle": "Our Work",
+    "title": "Featured",
+    "titleHighlight": "Projects",
+    "description": "Explore some of our recent projects. Each one represents our commitment to excellence and our passion for creating impactful solutions.",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "projects": {
+      "ecommerce": {
+        "title": "E-Commerce Platform",
+        "description": "Full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
+        "category": "Web App"
+      },
+      "healthcare": {
+        "title": "Healthcare App",
+        "description": "HIPAA-compliant mobile application for patient management and telemedicine consultations.",
+        "category": "Mobile App"
+      },
+      "saas": {
+        "title": "SaaS Dashboard",
+        "description": "Analytics dashboard with real-time data visualization and customizable reporting tools.",
+        "category": "Web App"
+      },
+      "fintech": {
+        "title": "Fintech Solution",
+        "description": "Secure financial platform with automated trading, portfolio management, and compliance tools.",
+        "category": "Enterprise"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What Our",
+    "titleHighlight": "Clients Say",
+    "description": "Don't just take our word for it. Here's what our clients have to say about working with us."
+  },
+  "techStack": {
+    "subtitle": "Technologies",
+    "title": "Our",
+    "titleHighlight": "Tech Stack",
+    "description": "We work with the latest technologies to build robust, scalable, and future-proof solutions for your business."
+  },
+  "process": {
+    "subtitle": "How We Work",
+    "title": "Our",
+    "titleHighlight": "Process",
+    "description": "A proven methodology that ensures successful project delivery from concept to launch and beyond.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "We start by understanding your vision, goals, and requirements through in-depth discussions.",
+        "details": ["Requirements gathering", "Stakeholder interviews", "Market research"]
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Our team creates a detailed roadmap, architecture design, and project timeline.",
+        "details": ["Technical architecture", "UI/UX design", "Sprint planning"]
+      },
+      "development": {
+        "title": "Development",
+        "description": "We build your solution using agile methodology with regular updates and feedback loops.",
+        "details": ["Agile sprints", "Code reviews", "Continuous integration"]
+      },
+      "launch": {
+        "title": "Launch & Support",
+        "description": "We deploy your project and provide ongoing maintenance and support.",
+        "details": ["Quality assurance", "Deployment", "24/7 monitoring"]
+      }
+    }
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "description": "Find answers to common questions about our services and process. Can't find what you're looking for? Contact us directly.",
+    "questions": {
+      "technologies": {
+        "question": "What technologies do you specialize in?",
+        "answer": "We specialize in modern web technologies including React, Next.js, Vue.js, Node.js, Python, and Go. For mobile development, we work with React Native and Flutter. We also have expertise in cloud platforms like AWS, GCP, and Azure."
+      },
+      "timeline": {
+        "question": "How long does a typical project take?",
+        "answer": "Project timelines vary based on scope and complexity. A simple website might take 2-4 weeks, while a complex web application could take 3-6 months. We provide detailed timelines during the planning phase after understanding your requirements."
+      },
+      "support": {
+        "question": "Do you provide ongoing support after launch?",
+        "answer": "Yes, we offer comprehensive post-launch support and maintenance packages. This includes bug fixes, security updates, performance monitoring, and feature enhancements. We can tailor a support plan to your specific needs."
+      },
+      "process": {
+        "question": "What is your development process?",
+        "answer": "We follow an agile methodology with iterative development cycles. This includes discovery, planning, development sprints, testing, and deployment. You'll have regular check-ins and demos throughout the project to ensure we're aligned with your vision."
+      },
+      "team": {
+        "question": "Can you work with our existing team?",
+        "answer": "Absolutely! We frequently integrate with in-house teams as an extension of their capabilities. We can adapt to your workflows, tools, and communication preferences to ensure seamless collaboration."
+      },
+      "pricing": {
+        "question": "How do you handle project pricing?",
+        "answer": "We offer both fixed-price and time-and-materials pricing models. Fixed-price works well for projects with clearly defined scope, while T&M offers flexibility for evolving requirements. We provide detailed estimates after the discovery phase."
+      }
+    }
+  },
+  "aiPricing": {
+    "badge": "AI Services Pricing",
+    "title": "AI Integration",
+    "titleHighlight": "Pricing",
+    "description": "Transparent pricing for AI solutions. Choose the package that fits your automation needs.",
+    "from": "From",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "note": "* Prices depend on complexity and scope. We offer custom quotes for specific requirements.",
+    "customProject": "Need a custom AI solution? Let's talk",
+    "plans": {
+      "chatbot": {
+        "name": "AI Chatbot",
+        "description": "Intelligent chatbot for your website or app",
+        "features": [
+          "GPT-4 or Claude powered",
+          "Custom knowledge base",
+          "Website/app integration",
+          "Multi-language support",
+          "Analytics dashboard",
+          "2-4 weeks delivery",
+          "30 days support"
+        ]
+      },
+      "automation": {
+        "name": "AI Automation",
+        "description": "Process automation with AI",
+        "features": [
+          "Document processing (RAG)",
+          "Email automation",
+          "Data extraction & analysis",
+          "Workflow integration",
+          "Custom API endpoints",
+          "Employee training",
+          "4-8 weeks delivery",
+          "90 days support"
+        ]
+      },
+      "custom": {
+        "name": "Custom AI",
+        "description": "Tailored AI solution for your business",
+        "features": [
+          "Custom model training",
+          "Fine-tuning on your data",
+          "Multiple AI integrations",
+          "Advanced analytics",
+          "Dedicated infrastructure",
+          "Full documentation",
+          "8-12 weeks delivery",
+          "6 months support"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "subtitle": "Pricing",
+    "title": "Transparent",
+    "titleHighlight": "Pricing",
+    "description": "Choose the package that fits your needs. All prices are starting points - final cost depends on project complexity.",
+    "from": "From",
+    "project": "project",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "note": "* All prices are estimates. Final pricing is determined after the discovery phase based on your specific requirements.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small projects and MVPs",
+        "features": [
+          "Landing page or simple website",
+          "Up to 5 pages",
+          "Responsive design",
+          "Basic SEO optimization",
+          "Contact form integration",
+          "2 weeks delivery",
+          "30 days support"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Ideal for growing businesses",
+        "features": [
+          "Custom web application",
+          "Up to 15 pages/screens",
+          "Database integration",
+          "User authentication",
+          "Admin dashboard",
+          "API development",
+          "4-8 weeks delivery",
+          "90 days support"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For complex, large-scale projects",
+        "features": [
+          "Full-stack application",
+          "Unlimited pages/screens",
+          "Advanced integrations",
+          "Microservices architecture",
+          "Cloud deployment (AWS/GCP)",
+          "Performance optimization",
+          "8-16 weeks delivery",
+          "6 months support"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "badge": "Let's build something amazing",
+    "title": "Ready to Transform Your Ideas?",
+    "description": "Partner with us to bring your vision to life. We're ready to help you build the next generation of digital products.",
+    "startProject": "Start a Project",
+    "viewWork": "View Our Work"
+  },
+  "contact": {
+    "subtitle": "Contact Us",
+    "title": "Get in",
+    "titleHighlight": "Touch",
+    "description": "Ready to start your project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "title": "Send us a message",
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Project Inquiry",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email"
+    },
+    "process": {
+      "review": "We carefully review every message and get back to you with a thoughtful response.",
+      "fast": "We respond as quickly as possible - usually within 24 hours on business days.",
+      "free": "Don't hesitate to reach out - the initial consultation is completely free with no obligations.",
+      "video": "We're happy to schedule an online video call to discuss your project in detail."
+    }
+  },
+  "footer": {
+    "description": "Building exceptional digital experiences with cutting-edge technology. Let's turn your vision into reality.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "rights": "All rights reserved.",
+    "craftedWith": "Crafted with",
+    "in": "in Warsaw, Poland",
+    "links": {
+      "webDev": "Web Development",
+      "mobileDev": "Mobile Development",
+      "desktopApps": "Desktop Applications",
+      "apiDev": "API Development",
+      "cloudSolutions": "Cloud Solutions",
+      "aboutUs": "About Us",
+      "portfolio": "Portfolio",
+      "testimonials": "Testimonials",
+      "process": "Process",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  }
+}
