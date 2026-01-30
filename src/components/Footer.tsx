@@ -56,8 +56,8 @@ export default function Footer() {
                   <path d="M16 15H24L16 25H24" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                   <defs>
                     <linearGradient id="footerLogoGradient" x1="0" y1="0" x2="40" y2="40">
-                      <stop offset="0%" stopColor="#2563eb" />
-                      <stop offset="100%" stopColor="#0891b2" />
+                      <stop offset="0%" stopColor="#1a2f44" />
+                      <stop offset="100%" stopColor="#334e68" />
                     </linearGradient>
                   </defs>
                 </svg>

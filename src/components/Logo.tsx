@@ -67,8 +67,8 @@ export default function Logo({ className = "", showText = true, size = "md" }: L
 
           <defs>
             <linearGradient id="logoGradient" x1="0" y1="0" x2="40" y2="40">
-              <stop offset="0%" stopColor="#2563eb" />
-              <stop offset="100%" stopColor="#0891b2" />
+              <stop offset="0%" stopColor="#1a2f44" />
+              <stop offset="100%" stopColor="#334e68" />
             </linearGradient>
           </defs>
         </svg>
