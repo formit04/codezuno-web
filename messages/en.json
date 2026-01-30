@@ -417,5 +417,133 @@
       "terms": "Terms of Service",
       "cookies": "Cookie Policy"
     }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Learn how Codezuno collects, uses, and protects your personal information.",
+      "lastUpdated": "Last updated",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "content": "At Codezuno, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services."
+        },
+        "dataCollection": {
+          "title": "Information We Collect",
+          "content": "We may collect information about you in a variety of ways. The information we may collect includes:",
+          "items": {
+            "name": "Personal identification information (name, email address)",
+            "email": "Contact information provided through our contact form",
+            "message": "Project details and requirements you share with us",
+            "usage": "Usage data and analytics (pages visited, time spent on site)"
+          }
+        },
+        "dataUse": {
+          "title": "How We Use Your Information",
+          "content": "We use the information we collect to:",
+          "items": {
+            "respond": "Respond to your inquiries and provide customer service",
+            "improve": "Improve our website and services",
+            "marketing": "Send you information about our services (with your consent)"
+          }
+        },
+        "cookies": {
+          "title": "Cookies and Tracking",
+          "content": "We use cookies and similar tracking technologies to track activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+        },
+        "rights": {
+          "title": "Your Rights",
+          "content": "Under GDPR and other applicable data protection laws, you have the right to:",
+          "items": {
+            "access": "Access your personal data",
+            "rectification": "Rectify inaccurate personal data",
+            "erasure": "Request erasure of your personal data",
+            "portability": "Data portability"
+          }
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "If you have questions about this Privacy Policy, please contact us at"
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "metaDescription": "Read the terms and conditions that govern your use of Codezuno services.",
+      "lastUpdated": "Last updated",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptance of Terms",
+          "content": "By accessing and using the Codezuno website and services, you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use our services."
+        },
+        "services": {
+          "title": "Description of Services",
+          "content": "Codezuno provides custom software development services, including web development, mobile app development, AI solutions, and related consulting services. The specific deliverables and terms for each project will be outlined in a separate agreement."
+        },
+        "intellectualProperty": {
+          "title": "Intellectual Property Rights",
+          "content": "Unless otherwise agreed in writing, upon full payment, you will own the intellectual property rights to the custom code developed specifically for your project. We retain rights to our proprietary tools, frameworks, and methodologies used in the development process."
+        },
+        "payment": {
+          "title": "Payment Terms",
+          "content": "Payment terms will be specified in your project agreement. Typically, we require a deposit before work begins, with remaining payments due upon completion of agreed milestones. Late payments may incur additional fees."
+        },
+        "liability": {
+          "title": "Limitation of Liability",
+          "content": "To the maximum extent permitted by law, Codezuno shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services or any products developed."
+        },
+        "termination": {
+          "title": "Termination",
+          "content": "Either party may terminate a project agreement with written notice. You will be responsible for payment of all work completed up to the termination date."
+        },
+        "governing": {
+          "title": "Governing Law",
+          "content": "These terms shall be governed by and construed in accordance with the laws of Poland, without regard to its conflict of law provisions."
+        },
+        "contact": {
+          "title": "Contact",
+          "content": "For any questions regarding these Terms of Service, please contact us at"
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "metaDescription": "Learn about the cookies we use and how to manage them on Codezuno website.",
+      "lastUpdated": "Last updated",
+      "sections": {
+        "what": {
+          "title": "What Are Cookies",
+          "content": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners."
+        },
+        "types": {
+          "title": "Types of Cookies We Use",
+          "intro": "We use the following types of cookies on our website:",
+          "essential": {
+            "title": "Essential Cookies",
+            "content": "These cookies are necessary for the website to function properly. They enable basic functions like page navigation and access to secure areas of the website."
+          },
+          "analytics": {
+            "title": "Analytics Cookies",
+            "content": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve our website."
+          },
+          "preferences": {
+            "title": "Preference Cookies",
+            "content": "These cookies allow the website to remember choices you make (such as your preferred language) and provide enhanced, personalized features."
+          }
+        },
+        "manage": {
+          "title": "Managing Cookies",
+          "content": "You can control and manage cookies through your browser settings. Please note that removing or blocking cookies may impact your user experience and parts of our website may no longer be fully accessible."
+        },
+        "thirdParty": {
+          "title": "Third-Party Cookies",
+          "content": "Some cookies are placed by third-party services that appear on our pages. We do not control these third-party cookies. Please refer to the respective privacy policies of these third parties for more information."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "If you have questions about our Cookie Policy, please contact us at"
+        }
+      }
+    }
   }
 }

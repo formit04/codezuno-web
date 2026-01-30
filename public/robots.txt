@@ -1,0 +1,10 @@
+# Robots.txt for codezuno.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://codezuno.com/sitemap.xml
+
+# Crawl-delay suggestion
+Crawl-delay: 1

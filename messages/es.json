@@ -417,5 +417,133 @@
       "terms": "Términos de Servicio",
       "cookies": "Política de Cookies"
     }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "metaDescription": "Descubre cómo Codezuno recopila, utiliza y protege tu información personal.",
+      "lastUpdated": "Última actualización",
+      "sections": {
+        "intro": {
+          "title": "Introducción",
+          "content": "En Codezuno, estamos comprometidos con la protección de tu privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos tu información cuando visitas nuestra web o utilizas nuestros servicios."
+        },
+        "dataCollection": {
+          "title": "Información que Recopilamos",
+          "content": "Podemos recopilar información sobre ti de varias maneras. La información que podemos recopilar incluye:",
+          "items": {
+            "name": "Información de identificación personal (nombre, correo electrónico)",
+            "email": "Información de contacto proporcionada a través del formulario",
+            "message": "Detalles del proyecto y requisitos que compartes con nosotros",
+            "usage": "Datos de uso y analíticas (páginas visitadas, tiempo en el sitio)"
+          }
+        },
+        "dataUse": {
+          "title": "Cómo Utilizamos tu Información",
+          "content": "Utilizamos la información recopilada para:",
+          "items": {
+            "respond": "Responder a tus consultas y proporcionar servicio al cliente",
+            "improve": "Mejorar nuestro sitio web y servicios",
+            "marketing": "Enviarte información sobre nuestros servicios (con tu consentimiento)"
+          }
+        },
+        "cookies": {
+          "title": "Cookies y Seguimiento",
+          "content": "Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro sitio web y almacenar cierta información. Puedes configurar tu navegador para rechazar todas las cookies o para indicar cuándo se envía una cookie."
+        },
+        "rights": {
+          "title": "Tus Derechos",
+          "content": "Bajo el RGPD y otras leyes de protección de datos aplicables, tienes derecho a:",
+          "items": {
+            "access": "Acceder a tus datos personales",
+            "rectification": "Rectificar datos personales inexactos",
+            "erasure": "Solicitar la eliminación de tus datos personales",
+            "portability": "Portabilidad de datos"
+          }
+        },
+        "contact": {
+          "title": "Contacto",
+          "content": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos en"
+        }
+      }
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "metaDescription": "Lee los términos y condiciones que rigen el uso de los servicios de Codezuno.",
+      "lastUpdated": "Última actualización",
+      "sections": {
+        "acceptance": {
+          "title": "Aceptación de los Términos",
+          "content": "Al acceder y utilizar el sitio web y los servicios de Codezuno, aceptas y te comprometes a cumplir con los términos y condiciones de este acuerdo. Si no estás de acuerdo con estos términos, por favor no utilices nuestros servicios."
+        },
+        "services": {
+          "title": "Descripción de los Servicios",
+          "content": "Codezuno proporciona servicios de desarrollo de software personalizado, incluyendo desarrollo web, desarrollo de aplicaciones móviles, soluciones de IA y servicios de consultoría relacionados. Los entregables específicos y los términos para cada proyecto se detallarán en un acuerdo separado."
+        },
+        "intellectualProperty": {
+          "title": "Derechos de Propiedad Intelectual",
+          "content": "A menos que se acuerde lo contrario por escrito, tras el pago completo, serás propietario de los derechos de propiedad intelectual del código desarrollado específicamente para tu proyecto. Conservamos los derechos sobre nuestras herramientas propietarias, frameworks y metodologías utilizadas en el proceso de desarrollo."
+        },
+        "payment": {
+          "title": "Condiciones de Pago",
+          "content": "Las condiciones de pago se especificarán en el acuerdo de tu proyecto. Normalmente, requerimos un depósito antes de comenzar el trabajo, con los pagos restantes al completar los hitos acordados. Los pagos atrasados pueden incurrir en cargos adicionales."
+        },
+        "liability": {
+          "title": "Limitación de Responsabilidad",
+          "content": "En la máxima medida permitida por la ley, Codezuno no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo resultante del uso de nuestros servicios o productos desarrollados."
+        },
+        "termination": {
+          "title": "Terminación",
+          "content": "Cualquiera de las partes puede terminar un acuerdo de proyecto con notificación por escrito. Serás responsable del pago de todo el trabajo completado hasta la fecha de terminación."
+        },
+        "governing": {
+          "title": "Ley Aplicable",
+          "content": "Estos términos se regirán e interpretarán de acuerdo con las leyes de Polonia, sin tener en cuenta sus disposiciones sobre conflictos de leyes."
+        },
+        "contact": {
+          "title": "Contacto",
+          "content": "Para cualquier pregunta sobre estos Términos de Servicio, contáctanos en"
+        }
+      }
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "metaDescription": "Conoce las cookies que utilizamos y cómo gestionarlas en el sitio web de Codezuno.",
+      "lastUpdated": "Última actualización",
+      "sections": {
+        "what": {
+          "title": "Qué Son las Cookies",
+          "content": "Las cookies son pequeños archivos de texto que se colocan en tu ordenador o dispositivo móvil cuando visitas un sitio web. Se utilizan ampliamente para que los sitios web funcionen de manera más eficiente y proporcionen información a los propietarios del sitio."
+        },
+        "types": {
+          "title": "Tipos de Cookies que Utilizamos",
+          "intro": "Utilizamos los siguientes tipos de cookies en nuestro sitio web:",
+          "essential": {
+            "title": "Cookies Esenciales",
+            "content": "Estas cookies son necesarias para que el sitio web funcione correctamente. Permiten funciones básicas como la navegación por páginas y el acceso a áreas seguras del sitio."
+          },
+          "analytics": {
+            "title": "Cookies de Analítica",
+            "content": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web recopilando y reportando información de forma anónima. Esto nos ayuda a mejorar nuestro sitio."
+          },
+          "preferences": {
+            "title": "Cookies de Preferencias",
+            "content": "Estas cookies permiten que el sitio web recuerde las elecciones que haces (como tu idioma preferido) y proporcione funciones mejoradas y personalizadas."
+          }
+        },
+        "manage": {
+          "title": "Gestión de Cookies",
+          "content": "Puedes controlar y gestionar las cookies a través de la configuración de tu navegador. Ten en cuenta que eliminar o bloquear cookies puede afectar tu experiencia de usuario y partes de nuestro sitio web pueden no ser completamente accesibles."
+        },
+        "thirdParty": {
+          "title": "Cookies de Terceros",
+          "content": "Algunas cookies son colocadas por servicios de terceros que aparecen en nuestras páginas. No controlamos estas cookies de terceros. Por favor, consulta las políticas de privacidad de estos terceros para más información."
+        },
+        "contact": {
+          "title": "Contacto",
+          "content": "Si tienes preguntas sobre nuestra Política de Cookies, contáctanos en"
+        }
+      }
+    }
   }
 }

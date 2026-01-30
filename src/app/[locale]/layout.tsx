@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import localFont from "next/font/local";
+import StructuredData from "@/components/StructuredData";
 import "../globals.css";
 
 const geistSans = localFont({
@@ -18,38 +19,72 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Codezuno | Software Development Company",
+  metadataBase: new URL("https://codezuno.com"),
+  title: {
+    default: "Codezuno | Custom Software Development & AI Solutions",
+    template: "%s | Codezuno",
+  },
   description:
-    "Transform your ideas into powerful, scalable software solutions. From web applications to mobile apps, we craft digital products that drive results.",
+    "Professional software development company specializing in custom web applications, mobile apps, AI chatbots, process automation, and cloud solutions. Transform your ideas into powerful digital products.",
   keywords: [
     "software development",
     "web development",
     "mobile development",
     "custom software",
+    "AI chatbot",
+    "AI solutions",
+    "process automation",
     "React",
     "Next.js",
     "Node.js",
     "API development",
+    "cloud solutions",
+    "AWS",
+    "software house",
+    "custom application",
+    "machine learning",
+    "GPT integration",
+    "enterprise software",
   ],
-  authors: [{ name: "Codezuno" }],
+  authors: [{ name: "Codezuno", url: "https://codezuno.com" }],
   creator: "Codezuno",
+  publisher: "Codezuno",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     type: "website",
     url: "https://codezuno.com",
     siteName: "Codezuno",
-    title: "Codezuno | Software Development Company",
+    title: "Codezuno | Custom Software Development & AI Solutions",
     description:
-      "Transform your ideas into powerful, scalable software solutions. From web applications to mobile apps, we craft digital products that drive results.",
+      "Professional software development company. Custom web apps, mobile apps, AI chatbots, and cloud solutions. Transform your ideas into powerful digital products.",
+    locale: "en_US",
+    alternateLocale: ["pl_PL", "es_ES"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Codezuno | Software Development Company",
+    title: "Codezuno | Custom Software Development & AI Solutions",
     description:
-      "Transform your ideas into powerful, scalable software solutions.",
+      "Professional software development company. Custom web apps, mobile apps, AI chatbots, and cloud solutions.",
+    creator: "@codezuno",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    // Add your Google Search Console verification code here
+    // google: "your-google-verification-code",
   },
 };
 
@@ -70,6 +105,13 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
+      <head>
+        <link rel="alternate" hrefLang="en" href="https://codezuno.com/en" />
+        <link rel="alternate" hrefLang="pl" href="https://codezuno.com/pl" />
+        <link rel="alternate" hrefLang="es" href="https://codezuno.com/es" />
+        <link rel="alternate" hrefLang="x-default" href="https://codezuno.com/en" />
+        <StructuredData />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >

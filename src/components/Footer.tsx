@@ -29,9 +29,9 @@ export default function Footer() {
       { name: t("links.contact"), href: `/${locale}/#contact` },
     ],
     legal: [
-      { name: t("links.privacy"), href: "#" },
-      { name: t("links.terms"), href: "#" },
-      { name: t("links.cookies"), href: "#" },
+      { name: t("links.privacy"), href: `/${locale}/privacy` },
+      { name: t("links.terms"), href: `/${locale}/terms` },
+      { name: t("links.cookies"), href: `/${locale}/cookies` },
     ],
   };
 
