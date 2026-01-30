@@ -12,10 +12,10 @@
   },
   "hero": {
     "badge": "Building the future of software",
-    "title1": "We Build",
-    "titleHighlight": "Exceptional",
-    "title2": "Digital Experiences",
-    "description": "Transform your ideas into powerful, scalable software solutions. From web applications to mobile apps, we craft digital products that drive results.",
+    "titleHighlight1": "We Drive",
+    "titleMiddle": "Your Growth with",
+    "titleHighlight2": "Modern Technology",
+    "description": "We build software that powers your success. From web applications to mobile apps, we craft digital products that drive results.",
     "cta": "Start Your Project",
     "viewWork": "View Our Work",
     "features": {

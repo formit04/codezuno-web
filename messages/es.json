@@ -12,10 +12,10 @@
   },
   "hero": {
     "badge": "Construyendo el futuro del software",
-    "title1": "Creamos",
-    "titleHighlight": "Excepcionales",
-    "title2": "Experiencias Digitales",
-    "description": "Transforma tus ideas en soluciones de software potentes y escalables. Desde aplicaciones web hasta móviles, creamos productos digitales que generan resultados.",
+    "titleHighlight1": "Impulsamos",
+    "titleMiddle": "Tu Crecimiento con",
+    "titleHighlight2": "Tecnología Moderna",
+    "description": "Construimos software que impulsa tu éxito. Desde aplicaciones web hasta móviles, creamos productos digitales que generan resultados.",
     "cta": "Iniciar Proyecto",
     "viewWork": "Ver Nuestro Trabajo",
     "features": {

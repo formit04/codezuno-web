@@ -32,7 +32,7 @@ body {
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-600 via-primary-500 to-accent-500 bg-clip-text text-transparent bg-300% animate-gradient;
+    @apply bg-gradient-to-r from-primary-700 via-accent-600 to-accent-500 bg-clip-text text-transparent bg-300% animate-gradient;
   }
 
   .gradient-border {

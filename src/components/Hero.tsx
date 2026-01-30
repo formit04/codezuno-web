@@ -53,10 +53,10 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight"
         >
-          {t("title1")}{" "}
-          <span className="gradient-text">{t("titleHighlight")}</span>
+          <span className="gradient-text">{t("titleHighlight1")}</span>{" "}
+          {t("titleMiddle")}
           <br />
-          {t("title2")}
+          <span className="gradient-text">{t("titleHighlight2")}</span>
         </motion.h1>
 
         <motion.p

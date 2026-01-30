@@ -12,10 +12,10 @@
   },
   "hero": {
     "badge": "Budujemy przyszłość oprogramowania",
-    "title1": "Tworzymy",
-    "titleHighlight": "Wyjątkowe",
-    "title2": "Cyfrowe Doświadczenia",
-    "description": "Przekształć swoje pomysły w potężne, skalowalne rozwiązania programistyczne. Od aplikacji webowych po mobilne - tworzymy produkty cyfrowe, które przynoszą rezultaty.",
+    "titleHighlight1": "Napędzamy",
+    "titleMiddle": "Twój rozwój",
+    "titleHighlight2": "nowoczesną technologią",
+    "description": "Budujemy oprogramowanie, które napędza Twój sukces. Od aplikacji webowych po mobilne - tworzymy produkty cyfrowe, które przynoszą rezultaty.",
     "cta": "Rozpocznij Projekt",
     "viewWork": "Zobacz Nasze Prace",
     "features": {
