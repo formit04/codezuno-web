@@ -418,6 +418,13 @@
       "cookies": "Polityka Cookies"
     }
   },
+  "cookieConsent": {
+    "title": "Używamy cookies",
+    "message": "Używamy plików cookies, aby poprawić Twoje doświadczenie przeglądania i analizować ruch na stronie.",
+    "learnMore": "Dowiedz się więcej",
+    "accept": "Akceptuj wszystkie",
+    "decline": "Odrzuć"
+  },
   "legal": {
     "privacy": {
       "title": "Polityka Prywatności",
