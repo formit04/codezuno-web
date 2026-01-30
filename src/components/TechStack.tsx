@@ -61,14 +61,14 @@ export default function TechStack() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="flex flex-wrap justify-center gap-4"
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto"
         >
           {technologies.map((tech, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="card px-6 py-4 cursor-default"
+              className="card px-6 py-4 cursor-default text-center"
             >
               <div className="text-gray-900 font-medium">{tech.name}</div>
               <div className={`text-xs mt-1 px-2 py-0.5 rounded-full inline-block ${tech.color}`}>
