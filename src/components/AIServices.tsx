@@ -20,12 +20,12 @@ export default function AIServices() {
   const locale = useLocale();
 
   const services = [
-    { icon: MessageSquare, key: "chatbots", color: "from-violet-500 to-purple-600" },
-    { icon: FileSearch, key: "documents", color: "from-blue-500 to-cyan-600" },
-    { icon: Workflow, key: "automation", color: "from-orange-500 to-red-600" },
-    { icon: BarChart3, key: "analytics", color: "from-green-500 to-emerald-600" },
-    { icon: Brain, key: "custom", color: "from-pink-500 to-rose-600" },
-    { icon: Bot, key: "assistants", color: "from-indigo-500 to-blue-600" },
+    { icon: MessageSquare, key: "chatbots", color: "from-primary-600 to-primary-800" },
+    { icon: FileSearch, key: "documents", color: "from-primary-700 to-primary-900" },
+    { icon: Workflow, key: "automation", color: "from-accent-500 to-accent-700" },
+    { icon: BarChart3, key: "analytics", color: "from-primary-600 to-primary-700" },
+    { icon: Brain, key: "custom", color: "from-accent-600 to-accent-800" },
+    { icon: Bot, key: "assistants", color: "from-primary-700 to-primary-800" },
   ];
 
   const benefits = [
@@ -39,9 +39,9 @@ export default function AIServices() {
     <section id="ai" className="section-padding relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-gray-900 via-gray-900 to-primary-950">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(99,102,241,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(99,102,241,0.05)_1px,transparent_1px)] bg-[size:50px_50px]" />
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-500/20 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(26,47,68,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(26,47,68,0.1)_1px,transparent_1px)] bg-[size:50px_50px]" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-700/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent-600/20 rounded-full blur-3xl" />
       </div>
 
       <div className="container-custom">
@@ -56,14 +56,14 @@ export default function AIServices() {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-600/10 border border-accent-600/20 mb-6"
           >
-            <Sparkles className="w-4 h-4 text-violet-400" />
-            <span className="text-sm text-violet-300 font-medium">{t("badge")}</span>
+            <Sparkles className="w-4 h-4 text-accent-500" />
+            <span className="text-sm text-accent-400 font-medium">{t("badge")}</span>
           </motion.div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-            {t("title")} <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">{t("titleHighlight")}</span>
+            {t("title")} <span className="bg-gradient-to-r from-accent-500 to-accent-600 bg-clip-text text-transparent">{t("titleHighlight")}</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             {t("description")}
@@ -79,7 +79,7 @@ export default function AIServices() {
         >
           {benefits.map((benefit, index) => (
             <div key={index} className="text-center p-6 rounded-2xl bg-white/5 border border-white/10">
-              <div className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-2">
+              <div className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-accent-500 to-accent-600 bg-clip-text text-transparent mb-2">
                 {benefit.value}
               </div>
               <div className="text-sm text-gray-400">{t(`benefits.${benefit.key}`)}</div>
@@ -96,7 +96,7 @@ export default function AIServices() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-violet-500/30 transition-all duration-300"
+              className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-accent-600/30 transition-all duration-300"
             >
               <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                 <service.icon className="w-6 h-6 text-white" />
@@ -123,7 +123,7 @@ export default function AIServices() {
             {(t.raw("useCases.items") as string[]).map((item, index) => (
               <span
                 key={index}
-                className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-300 text-sm hover:bg-violet-500/20 hover:border-violet-500/30 transition-all cursor-default"
+                className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-gray-300 text-sm hover:bg-accent-600/20 hover:border-accent-600/30 transition-all cursor-default"
               >
                 {item}
               </span>
@@ -141,7 +141,7 @@ export default function AIServices() {
           <div className="inline-flex flex-col sm:flex-row items-center gap-4">
             <Link
               href="#contact"
-              className="px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold rounded-xl hover:from-violet-500 hover:to-purple-500 transition-all shadow-lg shadow-violet-500/25 flex items-center gap-2 group"
+              className="px-8 py-4 bg-gradient-to-r from-primary-700 to-primary-800 text-white font-semibold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-900/25 flex items-center gap-2 group"
             >
               <Zap className="w-5 h-5" />
               {t("cta.primary")}

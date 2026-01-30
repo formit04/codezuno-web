@@ -14,21 +14,21 @@ export default function AIPricing() {
       key: "chatbot",
       icon: MessageSquare,
       price: "5,000",
-      color: "from-violet-500 to-purple-600",
+      color: "from-primary-600 to-primary-800",
       popular: false,
     },
     {
       key: "automation",
       icon: FileSearch,
       price: "15,000",
-      color: "from-blue-500 to-cyan-600",
+      color: "from-primary-700 to-primary-900",
       popular: true,
     },
     {
       key: "custom",
       icon: Brain,
       price: "50,000",
-      color: "from-pink-500 to-rose-600",
+      color: "from-accent-600 to-accent-800",
       popular: false,
     },
   ];
@@ -36,10 +36,10 @@ export default function AIPricing() {
   return (
     <section className="section-padding relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-violet-950 via-gray-900 to-gray-900">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-[size:50px_50px]" />
-        <div className="absolute top-1/4 left-0 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-primary-950 via-gray-900 to-gray-900">
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(26,47,68,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(26,47,68,0.08)_1px,transparent_1px)] bg-[size:50px_50px]" />
+        <div className="absolute top-1/4 left-0 w-96 h-96 bg-primary-700/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-accent-600/10 rounded-full blur-3xl" />
       </div>
 
       <div className="container-custom">
@@ -53,14 +53,14 @@ export default function AIPricing() {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20 mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-600/10 border border-accent-600/20 mb-6"
           >
-            <Sparkles className="w-4 h-4 text-violet-400" />
-            <span className="text-sm text-violet-300 font-medium">{t("badge")}</span>
+            <Sparkles className="w-4 h-4 text-accent-500" />
+            <span className="text-sm text-accent-400 font-medium">{t("badge")}</span>
           </motion.div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-            {t("title")} <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">{t("titleHighlight")}</span>
+            {t("title")} <span className="bg-gradient-to-r from-accent-500 to-accent-600 bg-clip-text text-transparent">{t("titleHighlight")}</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {t("description")}
@@ -80,13 +80,13 @@ export default function AIPricing() {
                 transition={{ delay: index * 0.1 }}
                 className={`relative p-8 rounded-2xl bg-white/5 border backdrop-blur-sm ${
                   plan.popular
-                    ? "border-violet-500/50 ring-1 ring-violet-500/20 scale-105"
+                    ? "border-accent-500/50 ring-1 ring-accent-500/20 scale-105"
                     : "border-white/10"
                 }`}
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                    <span className="px-4 py-1 bg-gradient-to-r from-violet-600 to-purple-600 text-white text-sm font-semibold rounded-full">
+                    <span className="px-4 py-1 bg-gradient-to-r from-accent-600 to-accent-700 text-white text-sm font-semibold rounded-full">
                       {t("popular")}
                     </span>
                   </div>
@@ -113,7 +113,7 @@ export default function AIPricing() {
                 <ul className="space-y-3 mb-8">
                   {features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-violet-400 flex-shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-accent-500 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-300 text-sm">{feature}</span>
                     </li>
                   ))}
@@ -123,7 +123,7 @@ export default function AIPricing() {
                   href={`/${locale}/?package=${encodeURIComponent(t(`plans.${plan.key}.name`) + " (AI)")}#contact`}
                   className={`block text-center py-3 px-6 rounded-xl font-semibold transition-all ${
                     plan.popular
-                      ? "bg-gradient-to-r from-violet-600 to-purple-600 text-white hover:from-violet-500 hover:to-purple-500 shadow-lg shadow-violet-500/25"
+                      ? "bg-gradient-to-r from-primary-700 to-primary-800 text-white hover:from-primary-600 hover:to-primary-700 shadow-lg shadow-primary-900/25"
                       : "bg-white/10 text-white hover:bg-white/20 border border-white/10"
                   }`}
                 >
@@ -143,7 +143,7 @@ export default function AIPricing() {
           <p className="text-gray-500 text-sm mb-6">{t("note")}</p>
           <Link
             href={`/${locale}/?package=${encodeURIComponent("Custom AI Project")}#contact`}
-            className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-300 font-medium transition-colors"
+            className="inline-flex items-center gap-2 text-accent-500 hover:text-accent-400 font-medium transition-colors"
           >
             {t("customProject")}
             <ArrowRight className="w-4 h-4" />
