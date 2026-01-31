@@ -81,14 +81,20 @@ accent (dusty rose):
 ## Build / Run / Test
 
 ```bash
-# Development
+# Development (default port 3000)
 npm run dev
+
+# Development on port 3001 (if 3000 is busy)
+npm run dev -- -p 3001
 
 # Build
 npm run build
 
 # Production locally
 npm start
+
+# Production on specific port
+PORT=3001 npm start
 
 # Deploy to Cloud Run
 gcloud builds submit --config cloudbuild.yaml --region=europe-west1
