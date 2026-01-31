@@ -16,7 +16,7 @@ The site includes sections: Hero, Services, AI Services, Tech Stack, Process, Po
 - **Icons**: Lucide React + inline SVGs for tech logos
 - **Fonts**: Inter (body), JetBrains Mono (code)
 - **Deployment**: Google Cloud Run (europe-west1)
-- **Build**: Docker with Kaniko caching via Cloud Build
+- **Build**: Docker (local build preferred) or Cloud Build with Kaniko
 
 ## Folder Structure
 
@@ -137,3 +137,5 @@ du -sh .next/static/chunks/*.js | sort -rh | head -10
 - Changed font from Geist to Inter for professional look
 - Updated hero headline structure for Polish sales messaging
 - Logo uses navy gradient (#1a2f44 to #334e68)
+- Changed testimonial names to international (Emma Nielsen, Marcus Chen, Sofia Rodriguez, etc.)
+- TechStack layout changed to 4x4 grid
