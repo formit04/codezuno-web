@@ -190,8 +190,8 @@ ${formData.message}`;
               <div className="space-y-4">
                 {processInfo.map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-4 h-4 text-green-600" />
+                    <div className="w-8 h-8 rounded-lg bg-primary-50 flex items-center justify-center flex-shrink-0">
+                      <item.icon className="w-4 h-4 text-primary-700" />
                     </div>
                     <p className="text-gray-600 text-sm leading-relaxed pt-1">
                       {t(item.textKey)}
