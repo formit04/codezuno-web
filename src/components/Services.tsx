@@ -25,37 +25,37 @@ export default function Services() {
       icon: Globe,
       titleKey: "web",
       features: ["React/Next.js", "Vue/Nuxt", "Node.js", "Python/Django"],
-      color: "from-blue-500 to-blue-600",
+      color: "from-primary-700 to-primary-800",
     },
     {
       icon: Smartphone,
       titleKey: "mobile",
       features: ["React Native", "Flutter", "iOS Native", "Android Native"],
-      color: "from-green-500 to-green-600",
+      color: "from-primary-600 to-primary-700",
     },
     {
       icon: Monitor,
       titleKey: "desktop",
       features: ["Electron", "Tauri", ".NET/WPF", "Qt"],
-      color: "from-purple-500 to-purple-600",
+      color: "from-accent-600 to-accent-700",
     },
     {
       icon: Server,
       titleKey: "api",
       features: ["REST APIs", "GraphQL", "Microservices", "Serverless"],
-      color: "from-orange-500 to-orange-600",
+      color: "from-primary-800 to-primary-900",
     },
     {
       icon: Cloud,
       titleKey: "cloud",
       features: ["AWS", "Google Cloud", "Azure", "Kubernetes"],
-      color: "from-cyan-500 to-cyan-600",
+      color: "from-primary-700 to-primary-800",
     },
     {
       icon: Shield,
       titleKey: "security",
       features: ["CI/CD", "Docker", "Security Audits", "Monitoring"],
-      color: "from-red-500 to-red-600",
+      color: "from-accent-500 to-accent-600",
     },
   ];
 
