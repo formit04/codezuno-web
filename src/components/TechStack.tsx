@@ -2,24 +2,25 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const technologies = [
-  { name: "React", category: "Frontend", color: "bg-blue-100 text-blue-700" },
-  { name: "Next.js", category: "Frontend", color: "bg-gray-100 text-gray-700" },
-  { name: "Vue.js", category: "Frontend", color: "bg-green-100 text-green-700" },
-  { name: "TypeScript", category: "Language", color: "bg-blue-100 text-blue-700" },
-  { name: "Node.js", category: "Backend", color: "bg-green-100 text-green-700" },
-  { name: "Python", category: "Backend", color: "bg-yellow-100 text-yellow-700" },
-  { name: "Go", category: "Backend", color: "bg-cyan-100 text-cyan-700" },
-  { name: "PostgreSQL", category: "Database", color: "bg-blue-100 text-blue-700" },
-  { name: "MongoDB", category: "Database", color: "bg-green-100 text-green-700" },
-  { name: "Redis", category: "Database", color: "bg-red-100 text-red-700" },
-  { name: "AWS", category: "Cloud", color: "bg-orange-100 text-orange-700" },
-  { name: "Docker", category: "DevOps", color: "bg-blue-100 text-blue-700" },
-  { name: "Kubernetes", category: "DevOps", color: "bg-blue-100 text-blue-700" },
-  { name: "GraphQL", category: "API", color: "bg-pink-100 text-pink-700" },
-  { name: "Tailwind", category: "Styling", color: "bg-cyan-100 text-cyan-700" },
-  { name: "Figma", category: "Design", color: "bg-purple-100 text-purple-700" },
+  { name: "React", category: "Frontend", logo: "https://cdn.simpleicons.org/react/61DAFB" },
+  { name: "Next.js", category: "Frontend", logo: "https://cdn.simpleicons.org/nextdotjs/000000" },
+  { name: "Vue.js", category: "Frontend", logo: "https://cdn.simpleicons.org/vuedotjs/4FC08D" },
+  { name: "TypeScript", category: "Language", logo: "https://cdn.simpleicons.org/typescript/3178C6" },
+  { name: "Node.js", category: "Backend", logo: "https://cdn.simpleicons.org/nodedotjs/339933" },
+  { name: "Python", category: "Backend", logo: "https://cdn.simpleicons.org/python/3776AB" },
+  { name: "Go", category: "Backend", logo: "https://cdn.simpleicons.org/go/00ADD8" },
+  { name: "PostgreSQL", category: "Database", logo: "https://cdn.simpleicons.org/postgresql/4169E1" },
+  { name: "MongoDB", category: "Database", logo: "https://cdn.simpleicons.org/mongodb/47A248" },
+  { name: "Redis", category: "Database", logo: "https://cdn.simpleicons.org/redis/DC382D" },
+  { name: "AWS", category: "Cloud", logo: "https://cdn.simpleicons.org/amazonaws/232F3E" },
+  { name: "Docker", category: "DevOps", logo: "https://cdn.simpleicons.org/docker/2496ED" },
+  { name: "Kubernetes", category: "DevOps", logo: "https://cdn.simpleicons.org/kubernetes/326CE5" },
+  { name: "GraphQL", category: "API", logo: "https://cdn.simpleicons.org/graphql/E10098" },
+  { name: "Tailwind", category: "Styling", logo: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+  { name: "Figma", category: "Design", logo: "https://cdn.simpleicons.org/figma/F24E1E" },
 ];
 
 const containerVariants = {
@@ -68,11 +69,21 @@ export default function TechStack() {
               key={index}
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="card px-6 py-4 cursor-default text-center"
+              className="card px-6 py-5 cursor-default text-center flex flex-col items-center gap-3"
             >
-              <div className="text-gray-900 font-medium">{tech.name}</div>
-              <div className={`text-xs mt-1 px-2 py-0.5 rounded-full inline-block ${tech.color}`}>
-                {tech.category}
+              <Image
+                src={tech.logo}
+                alt={tech.name}
+                width={32}
+                height={32}
+                className="w-8 h-8"
+                unoptimized
+              />
+              <div>
+                <div className="text-gray-900 font-medium">{tech.name}</div>
+                <div className="text-xs mt-1 px-2 py-0.5 rounded-full inline-block bg-primary-50 text-primary-700">
+                  {tech.category}
+                </div>
               </div>
             </motion.div>
           ))}
