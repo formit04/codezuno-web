@@ -12,25 +12,25 @@ export default function Process() {
       icon: MessageSquare,
       key: "discovery",
       number: "01",
-      color: "from-blue-500 to-blue-600",
+      color: "from-primary-700 to-primary-800",
     },
     {
       icon: Lightbulb,
       key: "planning",
       number: "02",
-      color: "from-purple-500 to-purple-600",
+      color: "from-primary-600 to-primary-700",
     },
     {
       icon: Code,
       key: "development",
       number: "03",
-      color: "from-green-500 to-green-600",
+      color: "from-accent-600 to-accent-700",
     },
     {
       icon: Rocket,
       key: "launch",
       number: "04",
-      color: "from-orange-500 to-orange-600",
+      color: "from-primary-800 to-primary-900",
     },
   ];
 
@@ -87,7 +87,7 @@ export default function Process() {
                     <ul className="space-y-2">
                       {details.map((detail, idx) => (
                         <li key={idx} className="flex items-center gap-2 text-sm text-gray-500">
-                          <CheckCircle2 className="w-4 h-4 text-green-500 flex-shrink-0" />
+                          <CheckCircle2 className="w-4 h-4 text-primary-700 flex-shrink-0" />
                           {detail}
                         </li>
                       ))}
