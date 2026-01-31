@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 
 const testimonials = [
   {
-    name: "Anna Kowalska",
+    name: "Emma Nielsen",
     role: "CEO",
     company: "TechStart",
     content:
@@ -14,7 +14,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Piotr Nowak",
+    name: "Marcus Chen",
     role: "CTO",
     company: "FinanceApp",
     content:
@@ -22,7 +22,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Maria Wiśniewska",
+    name: "Sofia Rodriguez",
     role: "Product Manager",
     company: "HealthTech Solutions",
     content:
@@ -30,7 +30,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Tomasz Zieliński",
+    name: "David Müller",
     role: "Founder",
     company: "LogiSmart",
     content:
