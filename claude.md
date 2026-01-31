@@ -96,12 +96,19 @@ npm start
 # Production on specific port
 PORT=3001 npm start
 
-# Deploy to Cloud Run
+# Deploy via Cloud Build (builds remotely)
 gcloud builds submit --config cloudbuild.yaml --region=europe-west1
+
+# Deploy via local Docker build (faster iteration)
+docker build --platform linux/amd64 -t europe-west1-docker.pkg.dev/codezuno-web/cloud-run-source-deploy/codezuno-web:latest .
+docker push europe-west1-docker.pkg.dev/codezuno-web/cloud-run-source-deploy/codezuno-web:latest
+gcloud run deploy codezuno-web --image europe-west1-docker.pkg.dev/codezuno-web/cloud-run-source-deploy/codezuno-web:latest --region europe-west1 --platform managed --allow-unauthenticated
 
 # Check build output sizes
 du -sh .next/static/chunks/*.js | sort -rh | head -10
 ```
+
+**Note**: Local Docker build requires `--platform linux/amd64` on Apple Silicon Macs.
 
 ## User Preferences
 
