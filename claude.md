@@ -78,6 +78,15 @@ accent (dusty rose):
 - Icon colors: Use `text-primary-700` for checkmarks (not green)
 - Service/process icons: Use `from-primary-X to-primary-Y` or `from-accent-X to-accent-Y` gradients
 
+## Quick Start
+
+```bash
+# Launch Claude in tmux session
+./launch-claude.sh
+
+# Or create Dock launcher: drag "Codezuno Claude.command" from Desktop to Dock
+```
+
 ## Build / Run / Test
 
 ```bash
@@ -139,3 +148,13 @@ du -sh .next/static/chunks/*.js | sort -rh | head -10
 - Logo uses navy gradient (#1a2f44 to #334e68)
 - Changed testimonial names to international (Emma Nielsen, Marcus Chen, Sofia Rodriguez, etc.)
 - TechStack layout changed to 4x4 grid
+- Added launch-claude.sh for tmux session management
+- Simplified project structure (removed empty monorepo scaffolding)
+
+## Project Location
+
+```
+/Users/marcinformela/claude_project/codezuno.com/
+├── .claude/        # Claude local data
+└── web/            # This project (Next.js + git repo)
+```
