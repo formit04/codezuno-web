@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import StructuredData from "@/components/StructuredData";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import "../globals.css";
 
 const inter = Inter({
@@ -132,6 +133,7 @@ export default async function LocaleLayout({
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased bg-background text-foreground font-sans`}
       >
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
